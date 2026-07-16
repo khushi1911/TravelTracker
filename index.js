@@ -8,7 +8,7 @@ const port = 3000;
 const db = new pg.Client({
   // enter your details 
   user: "postgres",
-  host: "",
+  host: "localhost",
   database: "",
   password: "",
   port: 5432,
