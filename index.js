@@ -6,6 +6,7 @@ const app = express();
 const port = 3000;
 
 const db = new pg.Client({
+  // enter your details 
   user: "",
   host: "",
   database: "",
